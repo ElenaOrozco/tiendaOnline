@@ -1,0 +1,187 @@
+/*  Header  */
+
+header{
+	color: #8aa4c1;
+	font-family: 'Prompt', sans-serif;
+}
+header nav a,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link,
+header nav a.navbar-brand.text-uppercase{
+	color: #8aa4c1;
+}
+header nav a.navbar-brand.text-uppercase{
+	font-weight: bold;
+}
+
+header nav a img{
+	height: 40px;
+}
+header nav .texto,
+header nav .menus .login{
+	display: none;
+}
+.navbar-light .navbar-toggler {
+    border-color: #8aa4c1;
+    color: #8aa4c1;
+    line-height: 30px;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus {
+	border-color: #fff;
+    color: #fff;
+}
+/* ========== Carousel ========== */
+.img-fluid{
+	width: 100%;
+    height: 100%;
+    margin-top: 56px;
+}
+/* ========== Productos /Mas vistos Generales =========== */
+.productos,
+.mas-vistos{
+	width: 97%;
+	height: 600px;
+	margin: 0 auto;
+	background: tomato;
+}
+
+.productos .categoria,
+.mas-vistos .categoria{
+	width: 100%;
+	height: 100px;
+}
+.productos .galeria-productos,
+.mas-vistos .galeria-productos{
+	width: 100%;
+	height: 400px;
+	background: red;
+}
+.productos .galeria-productos .item-producto,
+.mas-vistos .galeria-productos .item-producto{
+	width: 100%;
+	height: 100px;
+	border: 1px solid red;
+	
+}
+/* ========== Ver mas / Clientes / tel / footer Generales  =========== */
+.ver-mas,
+.clientes,
+.tel,
+footer{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background: chocolate;
+	border: 1px solid red;
+}
+/* ========== Proceso Compra/ footer main / footer derechos/ marcas Generales =========== */
+.proceso-compra,
+.marcas,
+footer .main,
+footer .derechos{
+	width: 97%;
+	height: 300px;
+	margin: 0 auto;
+	background: blue;
+	border: 1px solid red;
+
+}
+.proceso-compra .pasos{
+	height: 500px;
+	margin: 0 auto;
+	background: yellow;
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.proceso-compra .pasos .paso{
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	background: lime;
+	border: 1px solid red;
+	display: flex;
+}
+
+/* Para escritorio */
+@media (min-width: 992px){
+	/*menu */
+	nav {
+	    display: flex;
+	    justify-content: space-between;
+	}
+	header nav .login{
+		display: block !important;
+	}
+	header nav .texto,
+	header nav .menus,
+	header nav .navbar-brand{
+		width: 33%;
+
+	}
+	header nav .texto,
+	header nav .menus .login{
+		display: block;
+		text-align: end;
+	}
+	header nav .menus .login{
+		font-size: .9rem; 
+		color: #3e3e3e;
+	}
+	header nav .texto{
+		font-family: 'Ranga', cursive;
+		letter-spacing: 2px;
+	}
+	header nav div.texto img{
+		height: 24px;
+	}
+	
+	.navbar-toggleable-md .navbar-collapse {
+		justify-content: flex-end;
+	}
+	/* Carousel */
+	.img-fluid{
+		width: 100%;
+	    height: calc(100vh - 56px);
+	    margin-top: 56px;
+	}
+	/* ========== Productos =========== */
+	.productos,
+	.mas-vistos{
+		display: flex;
+		width: 85%;
+		height: auto;
+	}
+	.productos .categoria,
+	.mas-vistos .categoria{
+		width: 50%;
+		height: 300px;
+	}
+	.productos .galeria-productos,
+	.mas-vistos .galeria-productos{
+		display: flex;
+		align-items: center;
+		height: auto;
+	}
+	.productos .galeria-productos .item-producto,
+	.mas-vistos .galeria-productos .item-producto{
+		height: 256px;
+
+	}
+
+	/* Proceso compra */
+	.proceso-compra{
+		height: auto;
+		width: 85%;
+	}
+	.proceso-compra .pasos{
+		flex-direction: row;
+		height: auto;
+
+	}
+	.proceso-compra .pasos .paso{
+		flex-direction: column;
+	}
+
+}
