@@ -3,32 +3,104 @@ require 'header.php';
 ?>
 
 <!-- Productos -->
-<div class="productos" style="background: #000">
-	<div class="categoria" style="background: blue">
-		<div class="card w-100">
-		  <div class="card-block">
+<div class="productos my-3 my-md-5" style="background: #000;">
+	
+	<div class="categoria" style="background: blue; height:500px">
+		<div class="card w-100 h-100">
+		  <div class="card-block d-flex flex-column justify-content-center align-items-center">
 		    <h4 class="card-title">Special title treatment</h4>
 		    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 		    <a href="#" class="btn btn-primary">Go somewhere</a>
 		  </div>
 		</div>
 	</div>
-	<div class="galeria-productos" style="background: pink">
-		<div class="item-producto" style="background: tomato"></div>
-		<div class="item-producto" style="background: tomato"></div>
-		<div class="item-producto" style="background: tomato"></div>
-		<div class="item-producto" style="background: tomato"></div>
+
+	<div class="galeria-productos" style="background: pink;">   
+		
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+
+		</div>
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+		</div>
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+		</div>
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+		</div>
 	</div>
 </div>
-<div class="productos" style="background: #000">
-	<div class="categoria" style="background: blue">
-		
+
+<!-- Productos -->
+<div class="productos my-3 my-md-5" style="background: #000;">
+	
+	<div class="categoria" style="background: blue; height:500px">
+		<div class="card w-100 h-100">
+		  <div class="card-block d-flex flex-column justify-content-center align-items-center">
+		    <h4 class="card-title">Special title treatment</h4>
+		    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		    <a href="#" class="btn btn-primary">Go somewhere</a>
+		  </div>
+		</div>
 	</div>
-	<div class="galeria-productos" style="background: pink">
-		<div class="item-producto" style="background: tomato"></div>
-		<div class="item-producto" style="background: tomato"></div>
-		<div class="item-producto" style="background: tomato"></div>
-		<div class="item-producto" style="background: tomato"></div>
+
+	<div class="galeria-productos" style="background: pink;">   
+		
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+
+		</div>
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+		</div>
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+		</div>
+		<div class="item-producto d-flex justify-content-center mx-md-2" style="background: tomato; height:200px">
+			<div class="w-50 imagen" style="background: blue;">
+			  	
+			</div>
+			<div class="w-50 card-detalle" style="background: yellow;">
+			  	
+			</div>
+		</div>
 	</div>
 </div>
 

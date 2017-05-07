@@ -42,7 +42,6 @@ header nav .menus .login{
 .productos,
 .mas-vistos{
 	width: 97%;
-	height: 600px;
 	margin: 0 auto;
 	background: tomato;
 }
@@ -50,13 +49,11 @@ header nav .menus .login{
 .productos .categoria,
 .mas-vistos .categoria{
 	width: 100%;
-	height: 100px;
 }
 .productos .galeria-productos,
 .mas-vistos .galeria-productos{
 	width: 100%;
-	height: 400px;
-	background: red;
+	
 }
 .productos .galeria-productos .item-producto,
 .mas-vistos .galeria-productos .item-producto{
@@ -105,7 +102,7 @@ footer .derechos{
 	display: flex;
 }
 
-/* Para escritorio */
+/* ============================================== Para escritorio ================================================*/
 @media (min-width: 992px){
 	/*menu */
 	nav {
@@ -155,23 +152,30 @@ footer .derechos{
 	.mas-vistos{
 		display: flex;
 		width: 85%;
-		height: auto;
+		height: 500px;
 	}
 	.productos .categoria,
 	.mas-vistos .categoria{
 		width: 50%;
-		height: 300px;
 	}
 	.productos .galeria-productos,
 	.mas-vistos .galeria-productos{
 		display: flex;
 		align-items: center;
-		height: auto;
 	}
 	.productos .galeria-productos .item-producto,
 	.mas-vistos .galeria-productos .item-producto{
-		height: 256px;
+		
 
+	}
+	.productos .galeria-productos .item-producto{
+		flex-direction: column;
+		height: 500px !important;
+	}
+	div.galeria-productos .item-producto.d-flex .w-50.imagen,
+	div.galeria-productos .item-producto.d-flex .w-50.card-detalle{
+		width: 100% !important;
+		height: 50%;
 	}
 
 	/* Proceso compra */
