@@ -37,6 +37,7 @@ header nav .menus .login{
     height: 100%;
     margin-top: 56px;
 }
+
 /* ========== Productos /Mas vistos Generales =========== */
 .productos,
 .mas-vistos{
@@ -145,6 +146,9 @@ footer .derechos{
 		width: 100%;
 	    height: calc(100vh - 56px);
 	    margin-top: 56px;
+	}
+	#carouselExampleIndicators div div div.carousel-caption.d-none.d-md-block {
+		top:40vh;
 	}
 	/* ========== Productos =========== */
 	.productos,

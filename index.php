@@ -5,7 +5,13 @@ require 'header.php';
 <!-- Productos -->
 <div class="productos" style="background: #000">
 	<div class="categoria" style="background: blue">
-		
+		<div class="card w-100">
+		  <div class="card-block">
+		    <h4 class="card-title">Special title treatment</h4>
+		    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		    <a href="#" class="btn btn-primary">Go somewhere</a>
+		  </div>
+		</div>
 	</div>
 	<div class="galeria-productos" style="background: pink">
 		<div class="item-producto" style="background: tomato"></div>

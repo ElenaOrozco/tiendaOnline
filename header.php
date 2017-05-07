@@ -54,9 +54,9 @@
 		</nav><!-- /nav-->
 
 		<!-- contenedor-->
-		<div class="container-fluid row mx-md-0 px-0 px-md-0">
+		<div class="container-fluid row mx-0 px-0 px-md-0">
 			<!-- carrousel-->
-			<div id="carouselExampleIndicators" class="carousel slide col-md-8 px-md-0" data-ride="carousel">
+			<div id="carouselExampleIndicators" class="carousel slide col-md-8 px-0" data-ride="carousel">
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -94,7 +94,12 @@
 			    <span class="sr-only">Next</span>
 			  </a>
 			</div>
-			<div class="promo col-md-4 px-md-0" style="height:100vh; background: #ff3d00;">
+			<div class="promo col-sd-12 col-md-4 px-0 d-flex justify-content-center align-items-center" style="height:100vh; background:  #ff3d00">
+				<div class="texto">
+					<h3>Titulo principal</h3>
+					<p class="h4">Secundario</p>
+					<a href="">Ver todos</a>	
+				</div>
 				
 
 			</div>
