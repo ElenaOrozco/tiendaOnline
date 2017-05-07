@@ -71,7 +71,19 @@ footer{
 	height: 600px;
 	margin: 0 auto;
 	background: chocolate;
-	border: 1px solid red;
+}
+
+/* ========== Ver mas ========== */
+.ver-mas{
+	background: url(../img/3.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.ver-mas .texto{
+	background: rgba(0, 0, 0, 0.62);;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+
 }
 /* ========== Proceso Compra/ footer main / footer derechos/ marcas Generales =========== */
 .proceso-compra,

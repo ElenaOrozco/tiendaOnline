@@ -107,8 +107,13 @@ require 'header.php';
 
 <!-- Ver Mas -->
 <div class="ver-mas">
-	
+	<div class="texto d-flex flex-column justify-content-center align-items-center ">
+		<h3 class="mx-1 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+		<h5 class="mx-1">Lorem ipsum dolor sit amet.</h5>
+		<a href="">Ver Todo</a>
+	</div>
 </div>
+
 <!-- Proceso Compra -->
 <div class="proceso-compra">
 	<h3>Lorem insup</h3>
